@@ -10,7 +10,7 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react';
 			baseUrl: 'https://genius-song-lyrics1.p.rapidapi.com',
 			prepareHeaders: (headers) => {
 				
-				headers.set('X-RapidAPI-Key' , '973ce6005emshf482200cc920742p1bd00djsn3b63037e4123', )
+				headers.set('X-RapidAPI-Key' , 'api key', )
 				
 				return headers;
 			},
